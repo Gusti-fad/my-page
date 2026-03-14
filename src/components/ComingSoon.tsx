@@ -10,7 +10,7 @@ export default function ComingSoon() {
   useEffect(() => {
     const t = setTimeout(() => {
       setIntro(false);
-    }, 1000);
+    }, 1350);
 
     return () => clearTimeout(t);
   }, []);
