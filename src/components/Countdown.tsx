@@ -6,7 +6,7 @@ import duration from "dayjs/plugin/duration";
 
 dayjs.extend(duration);
 
-const target = dayjs("2026-09-20T23:59:59");
+const target = dayjs("2026-09-24T23:59:59");
 
 export default function Countdown() {
   const [time, setTime] = useState(getTime());
