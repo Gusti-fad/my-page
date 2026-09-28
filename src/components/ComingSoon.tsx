@@ -35,9 +35,9 @@ export default function ComingSoon() {
               the things I&apos;ve learned, and the things I&apos;m still figuring out.
             </p>
           </div>
-          <div className="mt-5 md:mt-10">
+          {/* <div className="mt-5 md:mt-10">
             <Countdown />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
